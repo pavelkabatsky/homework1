@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1024px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    height: 100vh;
+}
+.card {
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 10px 22px 10px;
+    background-color: #fff;
+
+}
+.card__content-wrap {
+    padding: 10px 10px 0 10px;
+}
+.card__headline {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card__text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #ABB3BA;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
